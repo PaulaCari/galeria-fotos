@@ -1,0 +1,36 @@
+@media (max-width: 430px) {
+  h1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 150px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+  }
+  .gallery {
+    width: 150px; /* Reduzir a largura da galeria */
+    height: 150px; 
+  }
+
+  .gallery span {
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(200px); /* Reduzir o deslocamento em Z */
+  }
+  
+    .btns {
+        bottom: 150px; /* Ajustar a posição dos botões */
+        gap: 68px; /* Reduzir o espaçamento entre os botões */
+      }
+    
+      .btns .btn {
+        width: 40px; /* Reduzir o tamanho dos botões */
+        height: 40px;
+      }
+    }
+
+
+
+
+    
